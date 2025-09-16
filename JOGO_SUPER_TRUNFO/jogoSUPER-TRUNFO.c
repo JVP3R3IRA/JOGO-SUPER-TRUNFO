@@ -15,7 +15,9 @@ int main()
     float area, area2;      
 
     float pib, pib2;
-     
+
+    float renda, percapita, renda2, percapita2;
+    
     printf("Digite uma letra de A-H: ");
     scanf("%c", &letra);
 
@@ -60,6 +62,10 @@ int main()
     printf("Digite quantos pontos turisticos a cidade tem: ");
     scanf("%d", &turistico2);
 
+    renda = populacao / area ;
+    percapita = pib / populacao;
+
+
     printf("VAMOS VER O RESULTADO DE CADA CARTA\n");
 
     printf("PRIMEIRA CARTA\n");
@@ -77,6 +83,10 @@ int main()
     printf("O Pib e: R$ %.2f Bilhoes de Reais\n", pib);
 
     printf("Numero de pontos turisticos: %d\n", turistico);
+
+    printf("A densidade populacional e %.2f\n", renda);
+
+    printf("O PIB per capita é: %.2f", percapita);
 
     printf("SEGUNDA CARTA\n");
 
