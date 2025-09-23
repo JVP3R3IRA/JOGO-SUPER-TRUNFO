@@ -106,9 +106,9 @@ int main()
 
     printf("O estado da cidade é: %s\n", estado);
 
-    printf("A população e de: %lu km²\n", populacao);
+    printf("A população e de: %lu\n", populacao);
 
-    printf("A área: %.2f\n", area);
+    printf("A área: %.2fkm²\n", area);
 
     printf("O Pib e: R$ %.2f Bilhoes de Reais\n", pib);
 
@@ -130,9 +130,9 @@ int main()
 
     printf("O estado da cidade é: %s", estado2);
 
-    printf("A população e de: %lu km²\n", populacao2);
+    printf("A população e de: %lu\n", populacao2);
 
-    printf("A área: %.2f\n", area2);
+    printf("A área: %.2f\km²n", area2);
 
     printf("O Pib e: R$ %.2f Bilhoes de Reais\n", pib2);
 
@@ -162,4 +162,5 @@ int main()
 
         return 0;
         
+
 }
