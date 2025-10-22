@@ -175,13 +175,13 @@ int main()
         printf("%s: %.2f km²\n", cidade2, area2);
 
         if (area > area2)
-            printf("Cidade: %s GANHOU", cidade);
+            printf("Cidade: %s GANHOU\n", cidade);
 
         else if (area2 > area)
-            printf("Cidade: %s GANHOU", cidade2);
+            printf("Cidade: %s GANHOU\n", cidade2);
 
         else
-            printf("Deu Empate entre as cidades");
+            printf("Deu Empate entre as cidades\n");
 
         break;
 
@@ -192,14 +192,14 @@ int main()
         printf("%s: R$%.2f\n", cidade2, pib2);
 
         if (pib > pib2)
-            printf("Cidade: %s GANHOU", cidade);
+            printf("Cidade: %s GANHOU\n", cidade);
 
         else if (pib2 > pib)
 
-            printf("Cidade: %s GANHOU", cidade2);
+            printf("Cidade: %s GANHOU\n", cidade2);
 
         else
-            printf("Deu empate entre as cidades");
+            printf("Deu empate entre as cidades\n");
 
         break;
 
@@ -253,3 +253,4 @@ int main()
     return 0;
 
 }
+
