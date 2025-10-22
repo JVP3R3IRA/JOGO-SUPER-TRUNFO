@@ -222,12 +222,12 @@ int main()
         printf("%s: %.2f Densidade demografica\n", cidade2, densidade2);
 
         if (densidade < densidade2)
-            printf("Cidade: %s GANHOU", cidade);
+            printf("Cidade: %s GANHOU\n", cidade);
         else if (densidade2 < densidade)
 
-            printf("Cidade: %s GANHOU", cidade2);
+            printf("Cidade: %s GANHOU\n", cidade2);
         else
-            printf("Deu empate entre as cidades");
+            printf("Deu empate entre as cidades\n");
 
         break;
 
@@ -237,18 +237,19 @@ int main()
         printf("%s: %.2f Super Poder\n", cidade2, poder2);
 
         if (poder > poder2)
-            printf("Cidade: %s GANHOU", cidade);
+            printf("Cidade: %s GANHOU\n", cidade);
         else if (poder2 > poder)
-            printf("Cidade: %s GANHOU", cidade2);
+            printf("Cidade: %s GANHOU\n", cidade2);
 
         else
-            printf("Deu empate entre as cidades");
+            printf("Deu empate entre as cidades\n");
         break;
 
     default:
-        printf("Opção Invalida");
+        printf("Opção Invalida\n");
         break;
     }
 
     return 0;
+
 }
